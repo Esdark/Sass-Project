@@ -117,27 +117,36 @@ a{
         }
         p{
             padding: 10px;
+            align-items: center;
         }
         a{
             color: $s-color;
             text-decoration: underline;
+        }
+
+        div{
+            display: flex;
+            margin-left: 50px;
         }
         &-button{
             cursor: pointer;
             background-color: $bg-color;
             color: $bg-color;
             border: none;
-            padding: 20px;
+            padding: 10px;
             text-decoration: none;
-            margin: 4px 2px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 240px;
             border-radius: 50%;
             float: right;
-            height: 0px;
+            height: 32px;
             img{
                 position: relative;
                 align-items: center;
                 padding: 0%;
                 margin: 0%;
+                border: none;
             }
             
         }
