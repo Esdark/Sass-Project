@@ -1,5 +1,6 @@
 $bg-color: #D4AD75;
 $f-color: #1C0A00;
+$s-color: #CC9544;
 @function set-text-color($color) {
     @if(lightness($color) > 70) {
       @return #333;
