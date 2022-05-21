@@ -96,7 +96,7 @@ a{
 
     img{
         width: 50%;
-        padding-top: 75px;
+        padding-top: 55px;
     }
 
     &-container{
@@ -112,7 +112,7 @@ a{
         }
         h1{
             font-size: 40px;
-            padding-top: 25px;
+            padding-top: 5px;
             padding-bottom: 10px;
         }
         p{
@@ -129,11 +129,16 @@ a{
             border: none;
             padding: 20px;
             text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
             margin: 4px 2px;
             border-radius: 50%;
-
+            float: right;
+            height: 0px;
+            img{
+                position: relative;
+                align-items: center;
+                padding: 0%;
+                margin: 0%;
+            }
             
         }
     }

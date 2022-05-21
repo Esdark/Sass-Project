@@ -225,7 +225,7 @@ a {
 
 .service img {
   width: 50%;
-  padding-top: 75px;
+  padding-top: 55px;
 }
 
 .service-container {
@@ -243,7 +243,7 @@ a {
 
 .service-container h1 {
   font-size: 40px;
-  padding-top: 25px;
+  padding-top: 5px;
   padding-bottom: 10px;
 }
 
@@ -263,9 +263,18 @@ a {
   border: none;
   padding: 20px;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
   margin: 4px 2px;
   border-radius: 50%;
+  float: right;
+  height: 0px;
+}
+
+.service-container-button img {
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0%;
+  margin: 0%;
 }
 /*# sourceMappingURL=style.css.map */
